@@ -57,6 +57,7 @@ def player(prev_play, opponent_history=[]):
         # Method 0 - Check for all occurrences of the last and last two plays, and return
         # opposite of the most commonly played next character after both of those
         options = {}
+        
         # If no pattern found, build a probability of most common play after most recent 2 plays
         if method == 0:
             prob_chart = {}
